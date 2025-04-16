@@ -505,3 +505,10 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sw?
+
+# Build artifacts
+bin/
+obj/
+
+# Playwright cache
+.playwright/
