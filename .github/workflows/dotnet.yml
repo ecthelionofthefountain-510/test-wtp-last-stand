@@ -133,5 +133,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /srv/www/malmo/kevin/https://github.com/ecthelionofthefountain-510/test-wtp-last-stand.git
+            cd /srv/www/malmo/kevin
             git clone
