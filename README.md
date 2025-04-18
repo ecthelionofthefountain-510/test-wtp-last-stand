@@ -2,7 +2,7 @@
 
 Detta repo innehåller testningen för CRM-systemet WTP.
 
-## 🗂️ Struktur i repot
+##  Struktur i repot
 
 ```
 Testing/
@@ -16,7 +16,7 @@ Testing/
 └── README.md              # Denna fil
 ```
 
-## 🧪 Innehåll i testsviten
+##  Innehåll i testsviten
 
 | Testtyp          | Plats              | Teknologi               | Innehåll                          |
 |------------------|--------------------|--------------------------|-----------------------------------|
