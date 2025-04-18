@@ -18,20 +18,12 @@ Detta är repo för projektet som innehåller källkoden, testkoden samt konfigu
 - **Testfall & Loggar:**  
   Automatiserade testresultat (HTML-rapporter, loggar etc.) via Newman eller GitHub Actions.
 
-## Dokumentation (Kunskapsrapporter)
-
-Följande dokument lämnas in separat:
-- Förstudierapport (PDF eller DOCX)
-- Testplan / strategi (PDF eller DOCX)
-- Slutrapport (PDF eller DOCX)
-
 ## Så här kör du projektet och testerna
 
 1. **Kör applikationen:**  
    Starta backend och frontend.
 
-2. **Kör enhetstester och GUI-tester:**  
-   Kör:  
+2. **Kör enhetstester och GUI-tester:**    
    ```bash
    dotnet test
    ```
