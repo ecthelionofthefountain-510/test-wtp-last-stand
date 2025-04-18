@@ -30,8 +30,8 @@ Följande dokument lämnas in separat:
 1. **Kör applikationen:**  
    Starta backend och frontend.
 
-2. **Kör enhetstester:**  
-   Navigera till `XUnitTest` och kör:  
+2. **Kör enhetstester och GUI-tester:**  
+   Kör:  
    ```bash
    dotnet test
    ```
@@ -39,10 +39,7 @@ Följande dokument lämnas in separat:
 3. **Kör API-tester:**  
    Öppna Postman-samlingen `WTP_Test.postman_collection.json` och kör testerna mot din testmiljö.
 
-4. **Kör GUI-tester:**  
-   Navigera till `END2ENDTester` och kör Playwright/SpecFlow-tester enligt README där.
-
-5. **CI/CD:**  
+4. **CI/CD:**  
    Testerna körs automatiskt via GitHub Actions vid varje push. Resultaten visas i "Actions"-fliken på GitHub.
 
 ## Övrigt
