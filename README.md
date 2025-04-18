@@ -5,7 +5,7 @@ Detta repo innehåller testningen för CRM-systemet WTP.
 ##  Struktur i repot
 
 ```
-Testing/
+test-wtp-last-stand/
 ├── WTP-main/              # Själva CRM-systemet (frontend + backend)
 │   ├── client/            # React frontend
 │   └── server/            # .NET-backend
