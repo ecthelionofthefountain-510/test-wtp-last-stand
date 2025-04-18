@@ -29,13 +29,13 @@ Testing/
 
 1. **Klona repot**
 ```bash
-git clone https://github.com/DITT-ANVÄNDARNAMN/DITT-REPO.git
-cd DITT-REPO
+git clone https://github.com/ecthelionofthefountain-510/test-wtp-last-stand.git
+cd test-wtp-last-stand
 ```
 
 2. **Initiera testdatabas**
 ```bash
-psql -U postgres -d e2etests -f e2etests_dump.sql
+psql -U postgres -d e2etests -f test_db_dump.sql
 ```
 
 3. **Starta backend (.NET)**
