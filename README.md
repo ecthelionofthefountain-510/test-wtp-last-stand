@@ -35,7 +35,7 @@ cd test-wtp-last-stand
 
 2. **Initiera testdatabas**
 ```bash
-psql -U postgres -d e2etests -f test_db_dump.sql
+psql -U postgres -d test_db -f test_db_dump.sql
 ```
 
 3. **Starta backend (.NET)**
