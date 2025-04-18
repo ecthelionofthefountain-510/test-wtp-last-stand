@@ -9,10 +9,11 @@ Testing/
 ├── WTP-main/              # Själva CRM-systemet (frontend + backend)
 │   ├── client/            # React frontend
 │   └── server/            # .NET-backend
-├── XUnitTest/             # Enhetstester (xUnit)
+├── XUnitTest/             # Enhetstest (xUnit)
 ├── END2ENDTester/         # End-to-end-tester (SpecFlow + Playwright)
 ├── Postman/               # API-testning (Postman-samlingar)
 ├── .github/workflows/     # CI/CD workflows för automatiserad testkörning
+├── test_db_dump           # Script för Postgres-databasen
 └── README.md              # Denna fil
 ```
 
@@ -62,6 +63,10 @@ dotnet test
 
 ✔️ **End-to-end-tester (GUI)**
 Körs via SpecFlow + Playwright i exempelvis Rider (med GUI-testramverk aktiverat).
+```bash
+cd END2ENDTester
+dotnet test
+```
 
 ✔️ **API-testning (Postman)**
 Importera `WTP_Test.postman_collection.json` i Postman och kör mot lokal server.
