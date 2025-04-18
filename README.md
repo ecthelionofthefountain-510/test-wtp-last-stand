@@ -13,7 +13,6 @@ Testing/
 ├── END2ENDTester/         # End-to-end-tester (SpecFlow + Playwright)
 ├── Postman/               # API-testning (Postman-samlingar)
 ├── .github/workflows/     # CI/CD workflows för automatiserad testkörning
-├── e2etests_dump.sql      # Init-script för testdatabas
 └── README.md              # Denna fil
 ```
 
