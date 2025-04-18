@@ -28,7 +28,7 @@ Följande dokument lämnas in separat:
 ## Så här kör du projektet och testerna
 
 1. **Kör applikationen:**  
-   Starta backend och frontend enligt instruktionerna (se README i `WTP-main`).
+   Starta backend och frontend.
 
 2. **Kör enhetstester:**  
    Navigera till `XUnitTest` och kör:  
