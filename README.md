@@ -39,5 +39,5 @@ Detta är repo för projektet som innehåller källkoden, testkoden samt konfigu
 Detta repo utgör projektuppgiften för kursen där testning, kodkvalitet och CI/CD är centrala delar.
 
 **Innehållet i inlämningen:**
-- **Kunskapsrapporter:** Förstudierapport, Testplan/strategi, Slutrapport  
+- **Kunskapsrapporter:** Förstudierapport och slutrapport (lämnas in separat) 
 - **Projektuppgift:** Källkod, testkod, GitHub Actions-konfiguration, testloggar
