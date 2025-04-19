@@ -34,8 +34,12 @@ git clone https://github.com/ecthelionofthefountain-510/test-wtp-last-stand.git
 cd test-wtp-last-stand
 ```
 
-2. **Initiera testdatabas**
+2. ## Initiera testdatabas
+
+###För att köra testerna krävs att en PostgreSQL-databas finns med rätt struktur och testdata. Använd dumpfilen `test_db_dump.sql` (finns i projektet) för att återskapa databasen:
+
 ```bash
+createdb test_db
 psql -U postgres -d test_db -f test_db_dump.sql
 ```
 
